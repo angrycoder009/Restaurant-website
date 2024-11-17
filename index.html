@@ -1,13 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sushi-website</title>
+  <link rel="icon" href="./assets/sushi-7.png" type="image/png">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+ 
+ <header>
+    <nav class="header__nav">
+     
+      <div class="header__logo">    
+        <div class="header__logo-overlay">
+          <h1>Sushiman</h1>
+        </div>
+      </div>
+      
+        <ul class="header__menu">
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#food">Food</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about-us">About Us</a></li>
+          <li>
+            <img src="assets/search.svg" alt="search">
+          </li>
+        </ul>
+
+        <ul class="header__menu-mobile">
+          <li>
+            <img src="assets/menu.svg" alt="menu" >
+          </li>
+        </ul>
+   
+    </nav>
+ </header>
+  <script type="module" src="js/script.js"></script>
+</body>
 </html>
